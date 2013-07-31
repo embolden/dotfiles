@@ -35,5 +35,5 @@ export LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40
 # Get to sites quickly
 alias web="cd /Applications/MAMP/htdocs"
 
-#Updating PATH variable
-export PATH=/usr/local/texlive/2012basic/bin/:/Users/matthewkeehner/Applications/adt-bundle-mac-x86_64-20130219/sdk/platform-tools/:$PATH
+#Bash Layout
+export PS1="[\\u@\\h:\\w]\n$"
