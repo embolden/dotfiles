@@ -1,5 +1,16 @@
+# I think MAMP is adding this
+source ~/.profile
+
+# Add Git auto completion
+if [ -f ~/.git-completion.bash ]; then
+  source ~/.git-completion.bash
+fi
+
 # Autocorrect typos in path names when using `cd`
 shopt -s cdspell
+
+# Always enable colored `grep` output
+export GREP_OPTIONS="--color=auto"
 
 # Bash Layout
 export PS1="[\\u@\\h:\\w]\n$"
@@ -15,5 +26,12 @@ alias got="git"
 # Old habits die hard
 alias subl="atom"
 
-#Copy SSH key
+# Copy SSH key
 alias copysshkey="pbcopy < ~/.ssh/id_rsa.pub"
+
+# Get to MAMP project directory quickly
+alias web="cd /Applications/MAMP/htdocs"
+
+# Added by NVM install
+export NVM_DIR="/Users/matt/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
