@@ -32,6 +32,19 @@ alias copysshkey="pbcopy < ~/.ssh/id_rsa.pub"
 # Get to MAMP project directory quickly
 alias web="cd /Applications/MAMP/htdocs"
 
+alias npm-run='PATH=$(npm bin):$PATH'
+
+# Homebrew completion?
+# if [ -f $(brew --prefix)/etc/bash_completion ]; then
+# . $(brew --prefix)/etc/bash_completion
+# fi
+
 # Added by NVM install
 export NVM_DIR="/Users/matt/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Shim for pyenv
+eval "$(pyenv init -)"
+
+# AWS CLI
+export PATH=~/.local/bin:$PATH
