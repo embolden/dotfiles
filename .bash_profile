@@ -16,7 +16,7 @@ export GREP_OPTIONS="--color=auto"
 export PS1="[\\u@\\h:\\w]\n$"
 
 # MAMP SQL
-export PATH=$PATH:/Applications/MAMP/Library/bin
+#export PATH=$PATH:/Applications/MAMP/Library/bin
 
 # Typos
 alias gut="git"
@@ -24,13 +24,15 @@ alias gti="git"
 alias got="git"
 
 # Old habits die hard
-alias subl="atom"
+# alias subl="atom"
+alias subl="code"
 
 # Copy SSH key
 alias copysshkey="pbcopy < ~/.ssh/id_rsa.pub"
 
 # Get to MAMP project directory quickly
-alias web="cd /Applications/MAMP/htdocs"
+#alias web="cd /Applications/MAMP/htdocs"
+alias web="cd ~/projects"
 
 alias npm-run='PATH=$(npm bin):$PATH'
 
@@ -44,7 +46,7 @@ export NVM_DIR="/Users/matt/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Shim for pyenv
-eval "$(pyenv init -)"
+#eval "$(pyenv init -)"
 
 # AWS CLI
-export PATH=~/.local/bin:$PATH
+#export PATH=~/.local/bin:$PATH
