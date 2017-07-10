@@ -1,5 +1,5 @@
 # I think MAMP is adding this
-source ~/.profile
+#source ~/.profile
 
 # Add Git auto completion
 if [ -f ~/.git-completion.bash ]; then
