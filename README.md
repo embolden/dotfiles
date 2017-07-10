@@ -3,7 +3,7 @@
 ## installation
 `git clone https://github.com/embolden/dotfiles.git`  
 `cd ~/.`  
-`ln -s ~/projects/.bash_profile ~/`
+`ln -s ~/projects/dotfiles/.bash_profile ~/`
 
 ## atom
 Create list of packages:  
