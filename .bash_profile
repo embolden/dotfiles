@@ -52,3 +52,12 @@ export NVM_DIR="$HOME/.nvm"
 
 # AWS CLI
 #export PATH=~/.local/bin:$PATH
+
+# https://laravel.com/docs/5.4/homestead#daily-usage
+function homestead() {
+  ( cd ~/Homestead && vagrant $* )
+}
+
+# Make laravel executable global
+# https://stackoverflow.com/a/25373254
+export PATH="$PATH:$HOME/.composer/vendor/bin"
