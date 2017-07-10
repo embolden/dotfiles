@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 12,
+    "editor.fontLigatures": true,
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "workbench.welcome.enabled": false
+}

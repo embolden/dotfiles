@@ -13,5 +13,10 @@ Create list of packages:
 Install list of packages:
 `apm install --packages-file packages.list`
 
+## VSCode
+`ln -s ~/projects/dotfiles/Code/settings.json ~/Library/Application\ Support/Code/User/settings.json`  
+`ln -s ~/projects/dotfiles/Code/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json`  
+`n -s ~/projects/dotfiles/Code/snippets/ ~/Library/Application\ Support/Code/User/snippets`  
+
 ## todo
 - Scrub analytics IDs from Atom's config.cson
