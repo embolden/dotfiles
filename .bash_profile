@@ -43,9 +43,9 @@ alias npm-run='PATH=$(npm bin):$PATH'
 # . $(brew --prefix)/etc/bash_completion
 # fi
 
-# Added by NVM install
-export NVM_DIR="/Users/matt/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# Needed for NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 
 # Shim for pyenv
 #eval "$(pyenv init -)"
