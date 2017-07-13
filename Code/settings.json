@@ -7,5 +7,6 @@
     "editor.tabSize": 2,
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
-    "workbench.welcome.enabled": false
+    "workbench.welcome.enabled": false,
+    "extensions.ignoreRecommendations": false
 }
