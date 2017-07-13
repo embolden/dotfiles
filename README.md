@@ -6,6 +6,10 @@
 `ln -s ~/projects/dotfiles/.bash_profile ~/`  
 `ln -s ~/projects/dotfiles/.inputrc ~/`
 
+## git config
+`ln -s ~/projects/dotfiles/.gitignore_global ~/`  
+`git config --global core.excludesfile ~/.gitignore_global`
+
 ## atom
 Create list of packages:  
 `apm list --installed --bare > packages.list`
