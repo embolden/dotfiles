@@ -14,6 +14,8 @@ Install list of packages:
 `apm install --packages-file packages.list`
 
 ## VSCode
+## sublime
+I haven't used sublime in a while, I just wanted to get rid of the separate sublime preference repo from my github.
 https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/  
 `ln -s ~/projects/dotfiles/Code/settings.json ~/Library/Application\ Support/Code/User/settings.json`  
 `ln -s ~/projects/dotfiles/Code/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json`  
