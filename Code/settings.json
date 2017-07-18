@@ -8,5 +8,6 @@
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
     "workbench.welcome.enabled": false,
-    "extensions.ignoreRecommendations": false
+    "extensions.ignoreRecommendations": false,
+    "files.trimTrailingWhitespace": true
 }
