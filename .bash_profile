@@ -39,9 +39,9 @@ alias web="cd ~/projects"
 alias npm-run='PATH=$(npm bin):$PATH'
 
 # Homebrew completion?
-# if [ -f $(brew --prefix)/etc/bash_completion ]; then
-# . $(brew --prefix)/etc/bash_completion
-# fi
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+. $(brew --prefix)/etc/bash_completion
+fi
 
 # Needed for NVM
 export NVM_DIR="$HOME/.nvm"
