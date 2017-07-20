@@ -14,5 +14,15 @@
     "key": "shift+cmd+z",
     "command": "-redo",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "f5",
+    "command": "sortLines.sortLines",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "f9",
+    "command": "-sortLines.sortLines",
+    "when": "editorTextFocus"
   }
 ]
