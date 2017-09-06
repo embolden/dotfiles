@@ -1,17 +1,25 @@
 // Place your settings in this file to overwrite the default settings
 {
+    "editor.autoIndent": true,
+    "editor.cursorBlinking": "smooth",
     "editor.fontFamily": "Fira Code",
-    "editor.fontSize": 12,
     "editor.fontLigatures": true,
-    "editor.renderWhitespace": "all",
-    "editor.tabSize": 2,
+    "editor.fontSize": 12,
+    "editor.formatOnPaste": true,
+    "editor.insertSpaces": false,
     "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [80, 120],
+    "editor.tabSize": 2,
     "editor.wordWrap": "on",
-    "workbench.welcome.enabled": false,
     "extensions.ignoreRecommendations": false,
-    "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "typescript.tsserver.log": "verbose",
+    "workbench.welcome.enabled": false,
     "[markdown]": {
         "files.trimTrailingWhitespace": false
-    }
+    },
+    "window.zoomLevel": 0
 }

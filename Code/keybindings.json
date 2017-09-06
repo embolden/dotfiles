@@ -24,5 +24,9 @@
     "key": "f9",
     "command": "-sortLines.sortLines",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+",
+    "command": "workbench.action.toggleMultiCursorModifier"
   }
 ]
