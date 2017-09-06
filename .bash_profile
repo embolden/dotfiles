@@ -36,7 +36,14 @@ alias copysshkey="pbcopy < ~/.ssh/id_rsa.pub"
 # Get to project directory quickly
 alias web="cd ~/projects"
 
-alias npm-run='PATH=$(npm bin):$PATH'
+# I don't remember what this was for
+#alias npm-run='PATH=$(npm bin):$PATH'
+
+# Too lazy to type docker-compose all the time
+alias dkc="docker-compose"
+
+# Too lazy to type vagrant
+alias vg="vagrant"
 
 # Homebrew completion?
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
