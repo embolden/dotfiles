@@ -45,6 +45,9 @@ alias dkc="docker-compose"
 # Too lazy to type vagrant
 alias vg="vagrant"
 
+# Too lazy to type docker
+alias dk="docker"
+
 # Homebrew completion?
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
 . $(brew --prefix)/etc/bash_completion
