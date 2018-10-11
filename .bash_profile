@@ -71,3 +71,9 @@ function homestead() {
 # Make laravel executable global
 # https://stackoverflow.com/a/25373254
 export PATH="$PATH:$HOME/.composer/vendor/bin"
+
+# Java Stuff
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=${JAVA_HOME}/bin:$PATH
+export PATH=/Users/mkeehner/NetBeansProjects/apache-maven-3.5.3/bin:$PATH
+
