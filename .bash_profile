@@ -77,3 +77,5 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 export PATH=${JAVA_HOME}/bin:$PATH
 export PATH=/Users/mkeehner/NetBeansProjects/apache-maven-3.5.3/bin:$PATH
 
+# Docker WP-CLI
+alias dcwp='docker-compose run --rm cli wp'
