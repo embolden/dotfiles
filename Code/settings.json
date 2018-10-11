@@ -4,7 +4,7 @@
     "editor.cursorBlinking": "smooth",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "editor.fontSize": 12,
+    "editor.fontSize": 16,
     "editor.formatOnPaste": true,
     "editor.insertSpaces": false,
     "editor.minimap.enabled": false,
@@ -14,12 +14,16 @@
     "editor.tabSize": 2,
     "editor.wordWrap": "on",
     "extensions.ignoreRecommendations": false,
+    "files.exclude": {
+        "**/.git": false
+    },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "typescript.tsserver.log": "verbose",
-    "workbench.welcome.enabled": false,
     "[markdown]": {
         "files.trimTrailingWhitespace": false
     },
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "workbench.startupEditor": "newUntitledFile",
+    "html.autoClosingTags": false
 }
