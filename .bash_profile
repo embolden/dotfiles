@@ -79,3 +79,12 @@ export PATH=/Users/mkeehner/NetBeansProjects/apache-maven-3.5.3/bin:$PATH
 
 # Docker WP-CLI
 alias dcwp='docker-compose run --rm cli wp'
+
+# Node Version Check
+npm() {
+  if [[ $@ == "findversion" ]]; then
+    command find . -name package.json | xargs grep -h node\": | sort | uniq -c
+  else
+    command npm "$@"
+  fi
+}
