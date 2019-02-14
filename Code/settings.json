@@ -25,5 +25,6 @@
     },
     "window.zoomLevel": 0,
     "workbench.startupEditor": "newUntitledFile",
-    "html.autoClosingTags": false
+    "html.autoClosingTags": false,
+    "markdown.preview.openMarkdownLinks": "inEditor"
 }
