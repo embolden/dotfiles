@@ -82,7 +82,7 @@ alias dcwp='docker-compose run --rm cli wp'
 
 # Node Version Check
 npm() {
-  if [[ $@ == "findversion" ]]; then
+  if [[ $@ == "whichversion" ]]; then
     command find . -name package.json | xargs grep -h node\": | sort | uniq -c
   else
     command npm "$@"
