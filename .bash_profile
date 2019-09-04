@@ -49,9 +49,9 @@ alias vg="vagrant"
 alias dk="docker"
 
 # Homebrew completion?
-if [ -f $(brew --prefix)/etc/bash_completion ]; then
-. $(brew --prefix)/etc/bash_completion
-fi
+# if [ -f $(brew --prefix)/etc/bash_completion ]; then
+# . $(brew --prefix)/etc/bash_completion
+# fi
 
 # Needed for NVM
 export NVM_DIR="$HOME/.nvm"
@@ -73,9 +73,9 @@ function homestead() {
 export PATH="$PATH:$HOME/.composer/vendor/bin"
 
 # Java Stuff
-export JAVA_HOME=$(/usr/libexec/java_home)
-export PATH=${JAVA_HOME}/bin:$PATH
-export PATH=/Users/mkeehner/NetBeansProjects/apache-maven-3.5.3/bin:$PATH
+#export JAVA_HOME=$(/usr/libexec/java_home)
+#export PATH=${JAVA_HOME}/bin:$PATH
+#export PATH=/Users/mkeehner/NetBeansProjects/apache-maven-3.5.3/bin:$PATH
 
 # Docker WP-CLI
 alias dcwp='docker-compose run --rm cli wp'
