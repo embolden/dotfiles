@@ -34,7 +34,7 @@ alias copysshkey="pbcopy < ~/.ssh/id_rsa.pub"
 #alias web="cd /Applications/MAMP/htdocs"
 
 # Get to project directory quickly
-alias web="cd ~/projects"
+alias web="cd ~/Projects"
 
 # I don't remember what this was for
 #alias npm-run='PATH=$(npm bin):$PATH'
