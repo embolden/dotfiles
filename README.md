@@ -26,4 +26,4 @@ https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-githu
 `ln -s ~/Projects/dotfiles/Code/snippets/ ~/Library/Application\ Support/Code/User/snippets`  
 
 ### windows 10
-`mklink /H %APPDATA%\Code\User\settings.json C:\Users\Matt\Projects\dotfiles\Code\settings.json`  
+`mklink /J %APPDATA%\Code\User C:\Users\Matt\Projects\dotfiles\Code\`  
