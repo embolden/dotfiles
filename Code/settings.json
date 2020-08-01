@@ -26,6 +26,9 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
   "html.autoClosingTags": false,
 
   "telemetry.enableTelemetry": false,
