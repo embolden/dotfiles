@@ -1,10 +1,16 @@
 # dotfiles
 
 ## installation
-`git clone https://github.com/embolden/dotfiles.git`  
+
+### macOS
+`git clone https://github.com/embolden/dotfiles.git ~/Code`  
 `cd ~/.`  
-`ln -s ~/Code/dotfiles/.bash_profile ~/`  
-`ln -s ~/Code/dotfiles/.inputrc ~/`  
+`ln -s ~/Code/dotfiles/.zshenv ~/`  
+`ln -s ~/Code/dotfiles/.zshrc ~/`  
+`touch ~/.hushlogin`  
+
+### windows 10
+@todo
 
 ## git config
 
