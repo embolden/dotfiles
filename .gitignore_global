@@ -11,3 +11,14 @@
 
 # Local History for Visual Studio Code
 .history/
+
+# https://github.com/github/gitignore/blob/master/Global/MicrosoftOffice.gitignore
+*.tmp
+# Word temporary
+~$*.doc*
+# Word Auto Backup File
+Backup of *.doc*
+# Excel temporary
+~$*.xls*
+# Excel Backup File
+*.xlk
