@@ -3,14 +3,14 @@
 ## installation
 `git clone https://github.com/embolden/dotfiles.git`  
 `cd ~/.`  
-`ln -s ~/Projects/dotfiles/.bash_profile ~/`  
-`ln -s ~/Projects/dotfiles/.inputrc ~/`  
+`ln -s ~/Code/dotfiles/.bash_profile ~/`  
+`ln -s ~/Code/dotfiles/.inputrc ~/`  
 
 ## git config
 
 ### macOS
-`ln -s ~/Projects/dotfiles/.gitignore_global ~/`  
-`ln -s ~/Projects/dotfiles/.git-completion.bash ~/`  
+`ln -s ~/Code/dotfiles/.gitignore_global ~/`  
+`ln -s ~/Code/dotfiles/.git-completion.bash ~/`  
 `git config --global core.excludesfile ~/.gitignore_global`  
 
 ### windows 10
@@ -21,9 +21,9 @@
 https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/  
 
 ### macOS
-`ln -s ~/Projects/dotfiles/Code/settings.json ~/Library/Application\ Support/Code/User/settings.json`  
-`ln -s ~/Projects/dotfiles/Code/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json`  
-`ln -s ~/Projects/dotfiles/Code/snippets/ ~/Library/Application\ Support/Code/User/snippets`  
+`ln -s ~/Code/dotfiles/Code/settings.json ~/Library/Application\ Support/Code/User/settings.json`  
+`ln -s ~/Code/dotfiles/Code/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json`  
+`ln -s ~/Code/dotfiles/Code/snippets/ ~/Library/Application\ Support/Code/User/snippets`  
 
 ### windows 10
 `mklink /J %APPDATA%\Code\User C:\Users\Matt\Projects\dotfiles\Code\`  
