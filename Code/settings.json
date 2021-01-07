@@ -43,5 +43,6 @@
   "window.zoomLevel": 0,
 
   "workbench.editor.closeEmptyGroups": false,
+  "workbench.iconTheme": "file-icons",
   "workbench.startupEditor": "newUntitledFile",
 }

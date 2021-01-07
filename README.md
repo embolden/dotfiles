@@ -37,4 +37,4 @@ https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-githu
 ##### Backup
 `code --list-extensions > extensions.list`
 ##### Install
-`cat extensions.list |% { code --install-extension $_}`
+`cat extensions.list | xargs -n 1 code --install-extension`
