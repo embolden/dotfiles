@@ -5,8 +5,6 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 16,
-    "editor.formatOnPaste": true,
-    "editor.insertSpaces": false,
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderWhitespace": "all",
@@ -17,7 +15,7 @@
     "editor.wordWrap": "on",
     "extensions.ignoreRecommendations": false,
     "files.exclude": {
-        "**/.git": false
+      "**/.git": false
     },
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
@@ -33,9 +31,49 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        // "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[isml]": {
+        "editor.formatOnSave": false,
+        // "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "editor.tabSize": 2,
     "emmet.showAbbreviationSuggestions": false,
-    "emmet.showExpandedAbbreviation": "never"
+    "emmet.showExpandedAbbreviation": "never",
+    "prettier.disableLanguages": [
+        "vue",
+        "js",
+        "isml"
+    ],
+    "editor.formatOnSave": false,
+    "editor.detectIndentation": false,
+    "[jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "extension.prophet.cartridges.path": "int_square_loyalty:app_rawlings:app_lyonscg:bm_listrak:int_listrak_pipelines:int_cybersource:int_dis:int_lcg_vertex:int_QAS:int_deckcommerce:int_pixlee:int_bazaarvoice:int_profitpoint:bc_integrationframework:int_tealium:app_cc:int_googleFeed:bc_orderguard:app_pagedesigner_sg:app_storefront_controllers:app_storefront_pipelines:app_storefront_core:module_pagedesigner",
+    "extension.prophet.upload.enabled": true,
+    "extension.prophet.clean.on.start": false,
+    "workbench.editor.closeEmptyGroups": false,
+    "explorer.compactFolders": false,
+    "explorer.autoReveal": false,
+    "extension.prophet.ignore.list": [
+      "node_modules",
+      "\\.git",
+      "\\.zip$",
+      "\\.vscode"
+    ],
+    "grammarly.userWords": [
+      "sfra",
+      "webpack"
+    ],
+    "git.autofetch": true,
+    "javascript.preferences.quoteStyle": "single",
+    "prettier.singleQuote": true,
+    "editor.accessibilitySupport": "off",
+    "javascript.format.enable": false
 }

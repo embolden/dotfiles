@@ -82,10 +82,24 @@ export PATH="$PATH:$HOME/.composer/vendor/bin"
 alias dcwp='docker-compose run --rm cli wp'
 
 # Node Version Check
+# https://medium.com/@alberto.schiabel/npm-tricks-part-1-get-list-of-globally-installed-packages-39a240347ef0
 npm() {
   if [[ $@ == "whichversion" ]]; then
     command find . -name package.json | xargs grep -h node\": | sort | uniq -c
+  elif [[ $@ == 'global' ]]; then
+    command npm list -g --depth 0
   else
     command npm "$@"
   fi
 }
+
+clean() {
+  for branch in $(git branch -r --merged master | grep origin | grep -v develop | grep -v master)
+  do
+    sleep 2
+    git push origin --delete "${branch#*/}"
+  done
+}
+
+# Hide the “default interactive shell is now zsh” warning on macOS.
+export BASH_SILENCE_DEPRECATION_WARNING=1;
