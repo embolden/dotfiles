@@ -27,3 +27,9 @@ https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-githu
 
 ### windows 10
 `mklink /J %APPDATA%\Code\User C:\Users\Matt\Projects\dotfiles\Code\`  
+
+#### Extensions
+##### Backup
+`code --list-extensions > extensions.list`
+##### Install
+`cat extensions.list |% { code --install-extension $_}`

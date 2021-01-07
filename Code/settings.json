@@ -1,24 +1,20 @@
 {
-  "editor": {
-    "autoIndent": true,
-    "cursorBlinking": "smooth",
-    "fontFamily": "Fira Code",
-    "fontLigatures": true,
-    "fontSize": 16,
-    "formatOnPaste": false,
-    "insertSpaces": false,
-    "minimap": { "enabled": false },
-    "multiCursorModifier": "ctrlCmd",
-    "renderWhitespace": "all",
-    "rulers": [80, 120],
-    "tabSize": 2,
-    "wordWrap": "on"
-  },
+  "editor.autoIndent": "full",
+  "editor.cursorBlinking": "smooth",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": false,
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
 
   "emmet.showAbbreviationSuggestions": false,
   "emmet.showExpandedAbbreviation": "never",
-
-  "extensions.ignoreRecommendations": false,
 
   "files.exclude": {
     "**/.git": false
@@ -35,8 +31,6 @@
 
   "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
 
-  "typescript.tsserver.log": "verbose",
-
   "window.zoomLevel": 0,
 
   "workbench.startupEditor": "newUntitledFile",
@@ -52,5 +46,6 @@
   "[markdown]": {
     "files.trimTrailingWhitespace": false,
     "preview.openMarkdownLinks": "inEditor"
-  }
+  },
+  "powermode.enabled": false
 }
