@@ -16,7 +16,6 @@
 
 ### macOS
 `ln -s ~/Code/dotfiles/.gitignore_global ~/`  
-`ln -s ~/Code/dotfiles/.git-completion.bash ~/`  
 `git config --global core.excludesfile ~/.gitignore_global`  
 
 ### windows 10
