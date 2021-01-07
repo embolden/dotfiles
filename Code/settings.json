@@ -1,5 +1,56 @@
-// Place your settings in this file to overwrite the default settings
 {
+  "editor.autoIndent": "full",
+  "editor.cursorBlinking": "smooth",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": false,
+  "editor.insertSpaces": true,
+  "editor.minimap.enabled": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderWhitespace": "all",
+  "editor.rulers": [80, 120],
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+
+  "emmet.showAbbreviationSuggestions": false,
+  "emmet.showExpandedAbbreviation": "never",
+
+  "files.exclude": {
+    "**/.git": false
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  "git.autofetch": true,
+  "git.confirmSync": false,
+
+  "html.autoClosingTags": false,
+
+  "telemetry.enableTelemetry": false,
+
+  "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+
+  "window.zoomLevel": 0,
+
+  "workbench.startupEditor": "newUntitledFile",
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+    "preview.openMarkdownLinks": "inEditor"
+  },
+  "powermode.enabled": false,
+
+  "heymatt": "lookhere",
+  
     "editor.autoIndent": true,
     "editor.cursorBlinking": "smooth",
     "editor.fontFamily": "Fira Code",

@@ -1,17 +1,24 @@
-*.DS_Store
+# macOS
+.DS_Store
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
 *.code-workspace
 
-#https://github.com/github/gitignore/blob/master/Global/MicrosoftOffice.gitignore
-*.tmp
+# Local History for Visual Studio Code
+.history/
 
+# https://github.com/github/gitignore/blob/master/Global/MicrosoftOffice.gitignore
+*.tmp
 # Word temporary
 ~$*.doc*
-
 # Word Auto Backup File
 Backup of *.doc*
-
 # Excel temporary
 ~$*.xls*
-
 # Excel Backup File
 *.xlk

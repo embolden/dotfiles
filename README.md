@@ -7,27 +7,29 @@
 `ln -s ~/Projects/dotfiles/.inputrc ~/`  
 
 ## git config
+
+### macOS
 `ln -s ~/Projects/dotfiles/.gitignore_global ~/`  
 `ln -s ~/Projects/dotfiles/.git-completion.bash ~/`  
 `git config --global core.excludesfile ~/.gitignore_global`  
 
-## atom
-Create list of packages:  
-`apm list --installed --bare > packages.list`
+### windows 10
+`mklink /H %USERPROFILE%\.gitignore C:\Users\Matt\Projects\dotfiles\.gitignore_global`  
+`git config --global core.excludesFile "%USERPROFILE%\.gitignore_global"`  
 
-Install list of packages:  
-`apm install --packages-file packages.list`
-
-## sublime
-I haven't used sublime in a while, I just wanted to get rid of the separate sublime preference repo from my github.
-
-## vscode
+## visual studio code
 https://pawelgrzybek.com/sync-vscode-settings-and-snippets-via-dotfiles-on-github/  
+
+### macOS
 `ln -s ~/Projects/dotfiles/Code/settings.json ~/Library/Application\ Support/Code/User/settings.json`  
 `ln -s ~/Projects/dotfiles/Code/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json`  
 `ln -s ~/Projects/dotfiles/Code/snippets/ ~/Library/Application\ Support/Code/User/snippets`  
 
-## todo
-- Figure out a saner solution to adding git completion
-- Steal [homeboy's VSCode backup](https://github.com/mattbanks/dotfiles/tree/master/bin)
-- Scrub analytics IDs from Atom's config.cson
+### windows 10
+`mklink /J %APPDATA%\Code\User C:\Users\Matt\Projects\dotfiles\Code\`  
+
+#### Extensions
+##### Backup
+`code --list-extensions > extensions.list`
+##### Install
+`cat extensions.list |% { code --install-extension $_}`
